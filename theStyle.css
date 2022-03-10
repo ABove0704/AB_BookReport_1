@@ -1,0 +1,32 @@
+body {
+     width: 500px;
+     height: 1700px;
+     margin: 0 auto;
+     border:  0px;
+    }
+
+    p { 
+    background: honeydew; 
+    border: 5px solid lightseagreen;
+    padding: 5px;
+    margin:  0px;
+    }
+
+    span {
+      background: lightskyblue;
+      border: 0px solid black;
+    }
+
+    h1 {
+      position: sticky;
+      top: 0px;
+      right: 30px;
+      width:500px;
+      margin-top: 0px;
+      background: white;
+      padding: 0px;
+    } 
+
+    p:nth-of-type(1) {
+      margin-top: 0px;
+    }
